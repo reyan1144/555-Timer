@@ -58,6 +58,23 @@ The astable multivibrator is commonly used in applications such as clock pulse g
 5.Edge-independent operation: Unlike the monostable mode, the astable multivibrator doesn’t require any external input signal to trigger operation.  
 
 # 4.Circuit Diagram  
+  
+# 5.Calculations  
+Lets choose ton=0.3ms and toff=0.2ms  
+ton = 0.69 (R1 + R2)C2, toff = 0.69 x R1 x C2
+by substituting in above formula we get  
+R2=28.9kohm,R1=14.5kohm  
+# 6.Transient Analysis  
+
+# 7.Inference  
+In astable multivibrator using a 555 timer IC, the circuit produced a continuous square wave output without any external trigger. The simulation confirmed that the pulse width (period) of the output waveform was determined by the resistor and capacitor values chosen. By selecting appropriate resistor values R1 and R2  and capacitor C the total period of 0.5 ms was achieved, with the output alternating between high and low states. It was observed that the time the output stayed high (ton) and low (toff) could be independently controlled, validating the theoretical calculations. This simulation verified the 555 timer’s operation in astable mode and demonstrated its use as a square wave generator.  
+
+# 8.Conclusions  
+The simulation of the astable multivibrator circuit using a 555 timer IC demonstrated that the circuit operates as a free-running oscillator, continuously generating a square wave without requiring an external trigger. The output waveform’s period and duty cycle were determined by the values of resistors 
+R1,R2 and Capaciror C as predicted by theoretical formulas. The achieved output period of 0.5 ms validated the accuracy of the component selection and design calculations. The simulation further confirmed the reliability of the 555 timer IC for generating stable clock pulses and square waves, highlighting its suitability for use in timing, pulse generation, and oscillator applications.  
+
+
+
 
 
 
