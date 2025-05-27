@@ -24,6 +24,9 @@ We will get R as 454.54ohms
 
 ![Image](https://github.com/user-attachments/assets/58a5f433-07d0-4a9d-b0c1-c1154687c58c)  
 This is generating trigger pulse at every 2ms...lets change is to 1ms and see what happens  
+![Image](https://github.com/user-attachments/assets/7eb4bfd2-c616-4075-b89d-a02ef5a50ff7)  
+This is generating trigger pulse at every 1ms...now lets change it to 0.1ms and see what happens  
+
 
 
 
