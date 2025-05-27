@@ -22,7 +22,11 @@ We will get R as 454.54ohms
 
 # Transient Analysis  
 
-  
+![Image](https://github.com/user-attachments/assets/58a5f433-07d0-4a9d-b0c1-c1154687c58c)  
+This is generating trigger pulse at every 2ms...lets change is to 1ms and see what happens  
+
+
+
 
 V(n001) is voltage across capacitor  
 V(n002) is the output voltage  
