@@ -12,4 +12,15 @@ A monostable multivibrator, also known as a one-shot pulse generator, is a circu
 5.High output drive capability: The 555 timer can source or sink up to 200 mA of current, sufficient to drive LEDs, relays, or other loads. 
 
 # Circuit Diagram  
+![Image](https://github.com/user-attachments/assets/0750370d-0d58-4146-8e35-5b9c5a835ab7)  
+
+# Calculation  
+We need T=0.5ms  
+WKT:T = 1.1 x R x C  
+Lets assume C=1u  
+We will get R as 454.54ohms  
+
+# Transient Analysis  
+
+
 
