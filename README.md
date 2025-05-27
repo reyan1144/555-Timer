@@ -22,5 +22,13 @@ We will get R as 454.54ohms
 
 # Transient Analysis  
 
+  
+
+V(n001) is voltage across capacitor  
+V(n002) is the output voltage  
+
+
+
+
 
 
